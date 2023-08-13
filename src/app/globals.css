@@ -42,7 +42,7 @@ font-family: 'Bellefair', serif;
 }
 .main-home{
   overflow: hidden;
-  background-image: url(./assets/home/background-home-desktop.jpg);
+  background-image: url(../../../assets/home/background-home-desktop.jpg);
 }
 .navbar{
   background-color: rgba(255, 255, 255, .1);
@@ -104,7 +104,7 @@ font-family: 'Bellefair', serif;
 /* Destination page */
 .main-destination{
   overflow: hidden;
-  background-image: url(./assets/destination/background-destination-desktop.jpg);
+  background-image: url(../../../assets/destination/background-destination-desktop.jpg);
 }
 .main-destination .slick-prev {
   left: 40px !important;
@@ -130,7 +130,7 @@ animation: planet-rotate 10s ease-in-out infinite forwards;
 /* crew page */
 .main-crew{
   overflow: hidden;
-  background-image: url(./assets/crew/background-crew-desktop.jpg);
+  background-image: url(../../../assets/crew/background-crew-desktop.jpg);
 }
 .main-crew .slick-prev, .main-crew .slick-next{
   display: none !important;
@@ -149,7 +149,7 @@ font-size: 12px;
 
 .main-technology{
   overflow: hidden;
-  background-image: url(./assets/technology/background-technology-desktop.jpg);
+  background-image: url(../../../assets/technology/background-technology-desktop.jpg);
 }
 .main-technology .slick-prev, .main-technology .slick-next{
   display: none !important;
