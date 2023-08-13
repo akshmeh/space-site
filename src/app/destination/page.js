@@ -6,7 +6,7 @@ export default function Destinaiton() {
     
     return <>
     <div className="main main-destination" style={{
-    backgroundImage: "url(" + `${require("./assets/destination/background-destination-desktop.jpg")}` + ")"}}>
+    backgroundImage: "url(https://akshmeh.github.io/space-site/assets/destination/background-destination-desktop.jpg)"}}>
    <Navbar></Navbar>
    <PlanetSlider/>
    

@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
     <div className="main main-home" style={{
-    backgroundImage: "url(" + `${require("./assets/home/background-home-desktop.jpg")}` + ")"}}>
+    backgroundImage: "url(https://akshmeh.github.io/space-site/assets/home/background-home-desktop.jpg)"}}>
     <Navbar/>
     <main className="flex flex-col lg:flex-row">
       <div className="lg:w-3/5 p-10 lg:p-20 lg:pt-32 text-center lg:text-left">
