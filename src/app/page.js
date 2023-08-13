@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 export default function Home() {
   return (
     <>
-    <div className="main main-home">
+    <div className="main main-home" style="background-image: url(./assets/home/background-home-desktop.jpg)">
     <Navbar/>
     <main className="flex flex-col lg:flex-row">
       <div className="lg:w-3/5 p-10 lg:p-20 lg:pt-32 text-center lg:text-left">
