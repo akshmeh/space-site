@@ -21,13 +21,13 @@ export const PlanetSlider = () => {
    {
     destinationData.map((item, index)=>{
         return(<>
-<div className="flex justify-center  items-center flex-col">
-   <div className="w-3/4 text-3xl"><span className="mr-5">{`0${index+1}`}</span> Pick your destination</div>
-<div className="w-full flex px-40">
-<div className="w-1/2 px-20 py-10"><Image src={item.images.webp} width={500} height={500} alt="moon" className="w-full h-auto"/></div>
-<div className="w-1/2">
-    <h1 className="text-9xl mb-4">{item.name}</h1>
-    <p className="pb-20 border-b-2">{item.description}</p>
+<div className="flex justify-center  items-center flex-col p-5 text-center lg:p-0 lg:text-left">
+   <div className="p-5 lg:p-0 lg:w-3/4 text-xl lg:text-3xl uppercase font-bellarfair"><span className="mr-5 text-gray-400">{`0${index+1}`}</span> Pick your destination</div>
+<div className="w-full flex flex-col lg:flex-row lg:px-40 lg:flex">
+<div className="p-10 lg:w-1/2 lg:px-20 lg:py-10"><Image src={item.images.webp} width={500} height={500} alt="moon" className="w-full h-auto"/></div>
+<div className="lg:w-1/2">
+    <h1 className="text-6xl lg:text-9xl mb-4">{item.name}</h1>
+    <p className="pb-5 lg:pb-20 border-b-2">{item.description}</p>
     <div className="flex mt-4">
 
     <div className="w-1/2">

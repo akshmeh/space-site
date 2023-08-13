@@ -1,13 +1,13 @@
 import Navbar from "../components/Navbar"
-import { PlanetSlider } from "../components/PlanetSlider"
+import { CrewSlider } from "../components/CrewSlider"
 
 
 export default function Destinaiton() {
     
     return <>
-    <div className="main main-destination">
+    <div className="main main-crew">
    <Navbar></Navbar>
-   <PlanetSlider/>
+   <CrewSlider></CrewSlider>
    
     </div>
     </>
